@@ -1,0 +1,130 @@
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header{
+            width: 100%;
+            height: 750px;
+            background-image:url(images/hero-bg.jpg);
+            color: white;
+            
+        }
+        .logo
+            {
+                float: left;
+            }
+        .logo h1{
+            
+            margin-top: 20px;
+            padding-left: 20px;
+        }
+        .nav
+        {
+            float: right;
+            margin-top: 20px;
+            padding-right: 20px;
+        }
+        .nav a{
+            text-decoration: none;
+            font-size: 20px;
+            color: white;
+            padding: 10px;
+            
+        }
+        .home{
+            display: inline-block;
+            text-align: center;
+            align-items: center;
+            padding-top: 250px;
+            padding-left: 300px;
+        }
+        .home h2{
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .home p{
+            padding-top: 30px;
+            padding-bottom: 30px;
+        }
+        .home button{
+            height: 40px;
+            width: 150px;
+            
+        }
+        main{
+            width: 100%;
+            height: 700px;
+            background-image:   url(images/us-bg.jpg);
+            display: flex;
+            color: white;
+            justify-content: space-around;
+            align-items: center;
+            position: relative;
+        }
+        .main_text{
+            width: 20%;
+            height: 250px;
+           
+            
+        }
+        .demo{
+            text-align: center;
+        }
+        .sec1{
+            width: 100%;
+            height: 700px;
+            background-image: url(images/healthy-bg.jpg);
+            display: flex;
+            align-items: center;
+            text-align: center;
+            
+        }
+        .sec1_main{
+        align-items: center;
+        color: white;
+        
+        }
+        .sec1_main button{
+            width: 150px;
+            height: 30px;
+            background-color: red;
+            color: white;
+        }
+        .sec1_main p{
+           
+            padding: 100px;
+            font-size: 25px;
+            color: white;
+        }
+
+        .sec2
+        {
+            width: 100%;
+            height: 700px;
+            background-image: url(images/trainer-bg.jpg);
+           display: flex;
+           color: white;
+            
+        
+        }
+        .sec2_main{
+           
+            display:flex;
+            padding: 150px;
+
+        }
+        .sec2_main h1{
+            text-align: center;
+        }
+
+        .sec2_img{
+            width: 30%;
+            height: 300px;
+            
+        }
+        .sec2_img img{
+    
+        }
+       
